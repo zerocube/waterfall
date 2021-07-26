@@ -8,7 +8,7 @@ RUN apt install -y openjdk-16-jre curl
 WORKDIR /app
 RUN curl \
   -L \
-  -O waterfall.jar \
+  -o waterfall.jar \
   "${SOURCE_JAR}"
 
 ENTRYPOINT ["java"]
