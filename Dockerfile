@@ -13,4 +13,6 @@ RUN curl \
 
 ENV JAVA_XMX 1G
 
+COPY ./app/ /app/
+
 ENTRYPOINT ["java", "-Xmx${JAVA_XMX}", "-jar", "/app/waterfall.jar"]
