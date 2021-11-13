@@ -1,6 +1,6 @@
 FROM openjdk:16-slim
 
-ARG SOURCE_JAR=https://papermc.io/api/v2/projects/waterfall/versions/1.17/builds/451/downloads/waterfall-1.17-451.jar
+ARG SOURCE_JAR=https://papermc.io/api/v2/projects/waterfall/versions/1.17/builds/453/downloads/waterfall-1.17-453.jar
 
 RUN apt update
 RUN apt install -y curl
