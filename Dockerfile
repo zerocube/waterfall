@@ -1,6 +1,6 @@
 FROM openjdk:18-slim
 
-ARG SOURCE_JAR=https://papermc.io/api/v2/projects/waterfall/versions/1.18/builds/486/downloads/waterfall-1.18-486.jar
+ARG SOURCE_JAR=https://api.papermc.io/v2/projects/paper/versions/1.19.3/builds/378/downloads/paper-1.19.3-378.jar
 
 RUN apt update
 RUN apt install -y curl
